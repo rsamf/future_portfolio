@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Richard Franklin - Software Engineer',
+    default: 'Richard Franklin - ML Engineer',
     template: '%s | Richard Franklin'
   },
-  description:  'Richard Franklin is a Software Engineer specializing in AI/ML, distributed systems, and full-stack development. Previously Technical Founder at Heddle AI and Software Development Engineer at Maxar Technologies.',
+  description:  'Richard Franklin is an ML Engineer specializing in AI/ML, distributed systems, and full-stack development. Previously Technical Founder at Heddle AI and Software Development Engineer at Maxar Technologies.',
 };
 
 const geist = Geist({
