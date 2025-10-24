@@ -68,6 +68,14 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project4',
   },
+  {
+    name: 'Ping Pong Shooting Robot',
+    description: 'The final project for the hardest course (CMPE118) at University of California, Santa Cruz. The robot was designed to navigate tape, avoid obstacles, and shoot ping pong balls at a 2kHZ emitting IR beacon.',
+    link: 'https://sites.google.com/ucsc.edu/cmpe-118l/home',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project5',
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
