@@ -22,6 +22,13 @@ type BlogPost = {
   uid: string
 }
 
+type Publication = {
+  title: string
+  description: string
+  link: string
+  uid: string
+}
+
 type SocialLink = {
   label: string
   link: string
@@ -90,32 +97,41 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ]
 
-export const BLOG_POSTS: BlogPost[] = [
+export const PUBLICATIONS: Publication[] = [
   {
     title: 'Text-Guided Mixup Towards Long-Tailed Image Categorization',
     description: 'Research paper published at BMVC 2024 on improving long-tailed visual recognition',
     link: 'https://bmvc2024.org',
-    uid: 'blog-1',
+    uid: 'pub-1',
   },
   {
     title: 'SolarDetector: Transformer-based Neural Network for Solar Panel Detection',
     description:
       'Research paper published at ACM SIGSPATIAL 2023 on detecting and masking solar panels',
     link: 'https://dl.acm.org/conference/sigspatial',
-    uid: 'blog-2',
+    uid: 'pub-2',
+  },
+]
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    title: 'Why I Declined my Google Job Offer',
+    description: 'Choosing meaning over prestige, and why I bet on myself instead',
+    link: '/blog/why-i-declined-google',
+    uid: 'blog-1',
   },
   {
     title: 'Building Graphbook: An Open-Source Framework for AI Pipelines',
     description:
       'How I built a DAG-execution framework for parallelized AI-driven data processing',
-    link: 'https://github.com/graphbook/graphbook',
-    uid: 'blog-3',
+    link: '/blog/building-graphbook',
+    uid: 'blog-2',
   },
   {
     title: 'From Satellite Telemetry to AI: My Journey at Maxar Technologies',
     description: 'Lessons learned from building distributed systems and ML infrastructure at scale',
     link: '/blog/maxar-journey',
-    uid: 'blog-4',
+    uid: 'blog-3',
   },
 ]
 

@@ -21,7 +21,7 @@ export function Header() {
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          ML Engineer
+          Machine Learning Engineer
         </TextEffect>
       </div>
       <div className="h-16 w-16 shrink-0 rounded-full bg-gradient-to-br from-zinc-200 to-zinc-300 dark:from-zinc-700 dark:to-zinc-800" />

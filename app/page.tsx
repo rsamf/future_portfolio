@@ -15,6 +15,7 @@ import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
   WORK_EXPERIENCE,
+  PUBLICATIONS,
   BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
@@ -137,9 +138,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            ML Engineer specializing in AI/ML, distributed systems, and full-stack development.
-            Former Technical Founder at Heddle AI building generative AI for virtual try-on.
-            MS in Computer Science from University of Washington with published research in machine learning and computer vision.
+            Formerly building generative AI for virtual try-on, and now, focused on ML for robots.
           </p>
         </div>
       </motion.section>
@@ -208,6 +207,44 @@ export default function Personal() {
               </div>
             </a>
           ))}
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">Publications</h3>
+        <div className="flex flex-col space-y-0">
+          <AnimatedBackground
+            enableHover
+            className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
+            transition={{
+              type: 'spring',
+              bounce: 0,
+              duration: 0.2,
+            }}
+          >
+            {PUBLICATIONS.map((pub) => (
+              <a
+                key={pub.uid}
+                className="-mx-3 rounded-xl px-3 py-3 block"
+                href={pub.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-id={pub.uid}
+              >
+                <div className="flex flex-col space-y-1">
+                  <h4 className="font-normal dark:text-zinc-100">
+                    {pub.title}
+                  </h4>
+                  <p className="text-zinc-500 dark:text-zinc-400">
+                    {pub.description}
+                  </p>
+                </div>
+              </a>
+            ))}
+          </AnimatedBackground>
         </div>
       </motion.section>
 
