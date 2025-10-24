@@ -12,15 +12,15 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nim-fawn.vercel.app/'),
+  metadataBase: new URL('https://rsamf.github.io/'),
   alternates: {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Richard Franklin - Software Engineer',
+    template: '%s | Richard Franklin'
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description:  'Richard Franklin is a Software Engineer specializing in AI/ML, distributed systems, and full-stack development. Previously Technical Founder at Heddle AI and Software Development Engineer at Maxar Technologies.',
 };
 
 const geist = Geist({
