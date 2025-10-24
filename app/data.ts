@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     name: 'Wear',
     description:
       'AI Virtual Try-On app for iOS, Android, and Chrome allowing users to virtually try on clothing from any store.',
-    link: 'https://github.com/rsamf',
+    link: 'https://heddle.ai/wear',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'Graphbook',
     description: 'Open-source observability and DAG-execution framework for building highly parallelized AI-driven data processing pipelines.',
-    link: 'https://github.com/graphbook/graphbook',
+    link: 'https://graphbook.ai',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'Limelight',
     description: 'iOS app that turns Spotify playlists into a public music queue. Users can vote and add tracks to play on a host device.',
-    link: 'https://github.com/rsamf',
+    link: 'https://appadvice.com/app/limelight-collaborative-dj/1430951858',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project3',
@@ -63,10 +63,18 @@ export const PROJECTS: Project[] = [
   {
     name: 'WoW Fishing Bot',
     description: 'Fishing automation in World of Warcraft using Computer Vision methods with Python and OpenCV.',
-    link: 'https://github.com/rsamf',
+    link: 'https://github.com/rsamf/wow-fishing-bot',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project4',
+  },
+  {
+    name: 'Ping Pong Shooting Robot',
+    description: 'The final project for the hardest course (CMPE118) at University of California, Santa Cruz. The robot was designed to navigate tape, avoid obstacles, and shoot ping pong balls at a 2kHZ emitting IR beacon.',
+    link: 'https://sites.google.com/ucsc.edu/cmpe-118l/home',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project5',
   },
 ]
 
@@ -101,14 +109,14 @@ export const PUBLICATIONS: Publication[] = [
   {
     title: 'Text-Guided Mixup Towards Long-Tailed Image Categorization',
     description: 'Research paper published at BMVC 2024 on improving long-tailed visual recognition',
-    link: 'https://bmvc2024.org',
+    link: 'https://arxiv.org/abs/2409.03583',
     uid: 'pub-1',
   },
   {
     title: 'SolarDetector: Transformer-based Neural Network for Solar Panel Detection',
     description:
       'Research paper published at ACM SIGSPATIAL 2023 on detecting and masking solar panels',
-    link: 'https://dl.acm.org/conference/sigspatial',
+    link: 'https://dl.acm.org/doi/10.1145/3589132.3625649',
     uid: 'pub-2',
   },
 ]

@@ -228,7 +228,7 @@ export default function Personal() {
             {PUBLICATIONS.map((pub) => (
               <a
                 key={pub.uid}
-                className="-mx-3 rounded-xl px-3 py-3 block"
+                className="-mx-3 rounded-xl px-3 py-3"
                 href={pub.link}
                 target="_blank"
                 rel="noopener noreferrer"
