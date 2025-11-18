@@ -1,5 +1,6 @@
 'use client'
 import { TextEffect } from '@/components/ui/text-effect'
+import Image from 'next/image';
 import Link from 'next/link'
 
 export function Header() {
@@ -24,7 +25,13 @@ export function Header() {
           Machine Learning Engineer
         </TextEffect>
       </div>
-      <div className="h-16 w-16 shrink-0 rounded-full bg-gradient-to-br from-zinc-200 to-zinc-300 dark:from-zinc-700 dark:to-zinc-800" />
+      <Image
+        src="/ProfileArmor.png"
+        alt="Richard Franklin"
+        width={64}
+        height={64}
+        className="rounded-full"
+      />
     </header>
   )
 }

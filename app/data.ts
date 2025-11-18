@@ -2,7 +2,9 @@ type Project = {
   name: string
   description: string
   link: string
-  video: string
+  video?: string
+  image?: string
+  isYouTube?: boolean
   id: string
 }
 
@@ -36,44 +38,43 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Wear',
+    name: 'Wear - AI Virtual Try-On',
     description:
       'AI Virtual Try-On app for iOS, Android, and Chrome allowing users to virtually try on clothing from any store.',
     link: 'https://heddle.ai/wear',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+    video: 'https://youtube.com/shorts/rerPcTzZz8U?feature=share',
+    isYouTube: true,
     id: 'project1',
   },
   {
     name: 'Graphbook',
     description: 'Open-source observability and DAG-execution framework for building highly parallelized AI-driven data processing pipelines.',
     link: 'https://graphbook.ai',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    video: 'https://www.youtube.com/watch?v=kIvTRSGnT0U',
+    isYouTube: true,
     id: 'project2',
   },
   {
     name: 'Limelight',
     description: 'iOS app that turns Spotify playlists into a public music queue. Users can vote and add tracks to play on a host device.',
     link: 'https://appadvice.com/app/limelight-collaborative-dj/1430951858',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    video: 'https://youtu.be/Ji0dGdRMqEA',
+    isYouTube: true,
     id: 'project3',
   },
   {
     name: 'WoW Fishing Bot',
     description: 'Fishing automation in World of Warcraft using Computer Vision methods with Python and OpenCV.',
     link: 'https://github.com/rsamf/wow-fishing-bot',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    video: 'https://youtu.be/6conRJqjcTE',
+    isYouTube: true,
     id: 'project4',
   },
   {
     name: 'Ping Pong Shooting Robot',
     description: 'The final project for the hardest course (CMPE118) at University of California, Santa Cruz. The robot was designed to navigate tape, avoid obstacles, and shoot ping pong balls at a 2kHZ emitting IR beacon.',
     link: 'https://sites.google.com/ucsc.edu/cmpe-118l/home',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    image: 'https://lh3.googleusercontent.com/sitesv/AAzXCkefBh9-CoPpn1TkXV93I31H3wFbed1l7x5VM-uDjuzXt3zT07D2A9ECzh1PIdfdttkThg4a_oVgXKbCZlthIQn34qrcLq_iIIUFVMgdxXZZhW_ddfCwVOVRAdBwNr0gKqab5UYGNrb_J_c-kJM5Yqp6LSCsVA4zRzHpj3nqBayN2NDm9CFRlmbFHChch2aY18io9RoBUTRr=w1280',
     id: 'project5',
   },
 ]
@@ -84,7 +85,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Technical Founder',
     start: 'Aug 2023',
     end: 'Aug 2025',
-    link: 'https://github.com/rsamf',
+    link: 'https://heddle.ai',
     id: 'work1',
   },
   {
