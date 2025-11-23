@@ -20,7 +20,10 @@ export const metadata: Metadata = {
     default: 'Richard Franklin - Machine Learning Engineer',
     template: '%s | Richard Franklin'
   },
-  description:  'Richard Franklin is a Machine Learning Engineer. Formerly building generative AI for virtual try-on, and now, focused on ML for robots.',
+  description: 'Richard Franklin is a Machine Learning Engineer, and has a deep focus on ML for robots\' perception, and control.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 const geist = Geist({

@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
     name: 'Ping Pong Shooting Robot',
     description: 'The final project for the hardest course (CMPE118) at University of California, Santa Cruz. The robot was designed to navigate tape, avoid obstacles, and shoot ping pong balls at a 2kHZ emitting IR beacon.',
     link: 'https://sites.google.com/ucsc.edu/cmpe-118l/home',
-    image: 'https://lh3.googleusercontent.com/sitesv/AAzXCkefBh9-CoPpn1TkXV93I31H3wFbed1l7x5VM-uDjuzXt3zT07D2A9ECzh1PIdfdttkThg4a_oVgXKbCZlthIQn34qrcLq_iIIUFVMgdxXZZhW_ddfCwVOVRAdBwNr0gKqab5UYGNrb_J_c-kJM5Yqp6LSCsVA4zRzHpj3nqBayN2NDm9CFRlmbFHChch2aY18io9RoBUTRr=w1280',
+    image: '/pingpongshooting.jpg',
     id: 'project5',
   },
 ]
@@ -124,23 +124,10 @@ export const PUBLICATIONS: Publication[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Why I Declined my Google Job Offer',
+    title: 'Why I Declined my Google Job Offer And You Shouldn\'t',
     description: 'Choosing meaning over prestige, and why I bet on myself instead',
     link: '/blog/why-i-declined-google',
     uid: 'blog-1',
-  },
-  {
-    title: 'Building Graphbook: An Open-Source Framework for AI Pipelines',
-    description:
-      'How I built a DAG-execution framework for parallelized AI-driven data processing',
-    link: '/blog/building-graphbook',
-    uid: 'blog-2',
-  },
-  {
-    title: 'From Satellite Telemetry to AI: My Journey at Maxar Technologies',
-    description: 'Lessons learned from building distributed systems and ML infrastructure at scale',
-    link: '/blog/maxar-journey',
-    uid: 'blog-3',
   },
 ]
 
